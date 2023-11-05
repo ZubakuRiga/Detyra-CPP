@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.26)
-project(llogaritja_pages)
+project(SalaryCalculation)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 23)
 
-add_executable(llogaritja_pages main.cpp)
+add_executable(SalaryCalculation main.cpp)

@@ -1,4 +1,4 @@
-# Install script for directory: /home/rigazubaku/CLionProjects/llogaritja_pages
+# Install script for directory: /home/rigazubaku/CLionProjects/SalaryCalculation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/rigazubaku/CLionProjects/llogaritja_pages/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/rigazubaku/CLionProjects/SalaryCalculation/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -2,25 +2,28 @@
 using namespace std;
 
 int main() {
+    int oretNormale, oretShtes;
+    cout << "Jepni numrin e orëve të punës normale: ";
+    cin >> oretNormale;
 
-    int non, nov;
-    cout<< "Sheno numrin e oreve te punes (normale): \n";
-    cin>> non;
-    cout << "Sheno numrin e oreve te punes (vecante) \n";
-    cin>> nov;
+    cout << "Jepni numrin e orëve të punës shtesë: ";
+    cin >> oretShtes;
 
-    int pon = 20, pov = 30;
-    int pagesa = (non*pon) + (nov*pov);
-    cout << "Pagesa juaj eshte: " << pagesa << "€";
+    const int pagesaNormale = 20, pagesaShtese = 30;
 
+    int pagesaTotale = oretNormale * pagesaNormale + oretShtes * pagesaShtese;
+    cout << "Pagesa totale është: " << pagesaTotale << "€";
 
-    int nds, ndp = 5;
-    int ndalesa = nds + ndp;
-    cout << "\nNdalesa nga paga juaj eshte: " << ndalesa << "€";
+    int tarifaTatimore, tarifaPensioni = 5; // 5%
 
+    int tatimi = pagesaTotale * tarifaTatimore / 100;
+    int pensioni = pagesaTotale * tarifaPensioni / 100;
 
-    int paga = pagesa - ndalesa;
-    cout << "\nPaga juaj ne fund te muajit eshte :" << paga <<"€";
+    int deduksioneTotale = tatimi + pensioni;
+    cout << "\nDeduksionet totale nga pagesa juaj janë: " << deduksioneTotale << "€";
+
+    int paga = pagesaTotale - deduksioneTotale;
+    cout << "\nPaga juaj mujore përfundimtare është: " << paga << "€";
 
     return 0;
 }
