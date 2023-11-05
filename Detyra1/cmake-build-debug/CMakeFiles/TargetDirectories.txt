@@ -1,0 +1,3 @@
+/home/rigazubaku/CLionProjects/llogaritja_pages/cmake-build-debug/CMakeFiles/llogaritja_pages.dir
+/home/rigazubaku/CLionProjects/llogaritja_pages/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/rigazubaku/CLionProjects/llogaritja_pages/cmake-build-debug/CMakeFiles/rebuild_cache.dir
